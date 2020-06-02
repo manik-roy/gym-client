@@ -1,0 +1,131 @@
+@import '../../styles/variables';
+@import '../../styles/mixins';
+header {
+  @include header(600px);
+}
+section {
+  margin-top: 100px;
+}
+.box {
+  width: 350px;
+  margin-right: 20px;
+  text-align: center;
+  color: #fff;
+  min-height: 200px;
+  padding: 20px;
+
+  img {
+    margin: 45px 0;
+  }
+  p {
+    margin-top: 20px;
+  }
+  
+}
+.progression {
+  background: url('../../images/workout.jpg');
+  background-size: cover;
+}
+.workout {
+  background: url('../../images/progression.jpg');
+  background-size: cover;
+
+  img {
+    margin-top: 80px;
+  }
+}
+.nutrition {
+  background: url('../../images/nutrition.jpg');
+  background-size: cover;
+}
+
+// Home about us
+
+.home-about-us {
+  display: flex;
+  flex-direction: row;
+  margin-left: 80px;
+  margin-right: 80px;
+  
+  .left-about {
+    width: 40%;
+    margin-right: 80px;
+
+    img {
+      width: 400px;
+      height: 400px;
+    }
+  }
+  .right-about {
+    width: 40%;
+  }
+}
+
+// Training
+
+.training {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+
+  .training-box {
+    width: 48%;
+    min-height: 300px;
+    margin-right: 10px;
+    position: relative;
+
+    button {
+      position: absolute;
+      bottom: 30px;
+      border: none;
+      width: 50%;
+      padding: 10px 0;
+      background-color: $textSecondary;
+      font-size: 20px;
+      font-weight: bolder;
+    }
+  }
+  .yoga {
+    background: url('../../images/yoga-training.png');
+    background-size: cover;
+  }
+
+  .cardio {
+    background: url('../../images/cardio-training.jpg');
+    background-size: cover;
+  }
+}
+
+.why-choose {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+  .why-choose-box {
+    text-align: center;
+    padding: 60px 10px;
+    width: 33%;
+    box-shadow: 5px 5px 10px gray;
+    margin: 5px;
+    line-height: 30px;
+
+    img {
+      width: 80px;
+    }
+
+    h5 {
+      font-weight: bold;
+      margin: 30px 0 20px 0;
+    }
+  }
+  .why-choose-box:hover {
+    border: 1px solid $textSecondary;
+  }
+}

@@ -1,11 +1,31 @@
 import React from 'react';
+import './App.scss';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+import Home from './components/Home/Home';
+import Pricing from './components/Pricing/Pricing';
+import MemberShip from './components/MemberShip/MemberShip';
 
-const App = () => {
+function App() {
   return (
-    <div style={{ width: '100wh', height: '100vh' }}>
-      <img src="https://i.ibb.co/47JRkJp/powerx-2.png" style={{ width: '100%' }} alt="power of gum" />
+    <div>
+     <Router>
+
+       <Switch>
+
+        <Route exact path='/' component={Home} />
+
+        <Route path='/pricing' component={Pricing} />
+
+        <Route path='/membership' component={MemberShip} />
+       </Switch>
+
+     </Router>
     </div>
   );
-};
+}
 
 export default App;

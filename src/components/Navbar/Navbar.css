@@ -1,0 +1,19 @@
+.secondary-text {
+  color: #f1c40f;
+}
+
+header nav .navbar-brand {
+  color: #fff;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+header nav ul li {
+  margin-right: 10px;
+}
+
+header nav ul li a {
+  color: #fff;
+  font-weight: bold;
+}
+/*# sourceMappingURL=Navbar.css.map */
