@@ -1,11 +1,10 @@
 import React from 'react';
-import AboutImg from '../../images/left-about.jpg';
 
 const AboutUs = () => {
   return (
     <section className='home-about-us'>
       <div className="left-about">
-        <img src={AboutImg} alt=""/>
+        <img src="https://i.ibb.co/FgNYQgQ/wells-chan-H-v-Axu-Wxmi8-unsplash.jpg" alt="" />
       </div>
       <div className="right-about">
         <h1 style={{ color: '#e8ebec' }}>ABOUT US</h1>

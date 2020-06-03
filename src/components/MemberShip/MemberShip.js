@@ -4,6 +4,7 @@ import { makeStyles, Stepper, Step, StepLabel, Button, Typography } from '@mater
 import Navbar from '../Navbar/Navbar';
 import MemberShipForm from './MemberShipForm';
 import PaymentForm from './PaymentForm';
+import Footer from '../Footer/Footer';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -60,7 +61,7 @@ const MemberShip = () => {
           <h1>YOUR GYM MEMBERSHIP</h1>
         </div>
       </header>
-      <div className={classes.root, 'container'}>
+      <div className={`${classes.root} container`}>
         <Stepper activeStep={activeStep} alternativeLabel>
           {steps.map((label) => (
             <Step key={label}>
@@ -93,7 +94,7 @@ const MemberShip = () => {
             )}
         </div>
       </div>
-
+      <Footer/>
     </>
   );
 }

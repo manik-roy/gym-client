@@ -8,7 +8,7 @@ import WhyUs from './WhyUs';
 import Footer from '../Footer/Footer';
 
 
-const Home = () => {
+const Home = props => {
   return (
     <>
     <header>
@@ -20,7 +20,7 @@ const Home = () => {
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quos nesciunt amet sint asperiores eum sequi quod minus suscipit soluta?
         </p>
-        <button className="join-us">JOIN US</button>
+        <button className="join-us" onClick={()=>props.history.push('/pricing')}>JOIN US</button>
       </div>
       <div className="header-right">
         {/* Image is missing */}

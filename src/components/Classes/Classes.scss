@@ -1,0 +1,63 @@
+.classes-header {
+  text-align: center;
+  text-transform: uppercase;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 50px;
+  color: #fff;
+  h1 {
+    font-size: 55px;
+    font-weight: bold;
+  }
+}
+.classes-area {
+  width: 90%;
+  margin:0 auto;
+}
+.classes-container {
+  margin-top: 50px;
+  button {
+    position: absolute;
+    width: 80%;
+    margin: 0 auto;
+    border: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    font-size: 25px;
+    text-transform: uppercase;
+    background: #FCD842;
+    font-weight: 700;
+    bottom: -30px;
+
+  }
+
+}
+.classes-details-area {
+  position: relative;
+  .check {
+    background: #FCD842;
+    padding: 5px 8px;
+    color: #fff;
+    border-radius: 4px;
+  }
+  h2 {
+    font-weight: 700;
+  }
+  p {
+    text-transform: capitalize;
+  }
+  button {
+    margin: 30px 0;
+    padding: 15px 50px;
+    font-weight: bolder;
+    font-size: 25px;
+    border: none;
+    background-color: #FCD842;
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+  }
+}

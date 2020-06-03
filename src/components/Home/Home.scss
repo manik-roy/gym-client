@@ -23,11 +23,11 @@ section {
   
 }
 .progression {
-  background: url('../../images/workout.jpg');
+  background: url('https://i.ibb.co/0G8LzsY/price2.jpg');
   background-size: cover;
 }
 .workout {
-  background: url('../../images/progression.jpg');
+  background: url('https://i.ibb.co/8XtYwwc/daniel-apodaca-Wdo-Qio6-HPVA-unsplash.jpg');
   background-size: cover;
 
   img {
@@ -35,7 +35,7 @@ section {
   }
 }
 .nutrition {
-  background: url('../../images/nutrition.jpg');
+  background: url('https://i.ibb.co/9smG29h/price1.jpg');
   background-size: cover;
 }
 
@@ -74,7 +74,7 @@ section {
 
   .training-box {
     width: 48%;
-    min-height: 300px;
+    min-height: 350px;
     margin-right: 10px;
     position: relative;
 
@@ -82,21 +82,23 @@ section {
       position: absolute;
       bottom: 30px;
       border: none;
-      width: 50%;
-      padding: 10px 0;
+      padding: 15px 25px;
       background-color: $textSecondary;
       font-size: 20px;
       font-weight: bolder;
+      margin-bottom: 15px;
     }
   }
   .yoga {
-    background: url('../../images/yoga-training.png');
-    background-size: cover;
+    background: url('https://i.ibb.co/g48xcyg/bruce-mars-g-Jt-Dg6-Wf-Ml-Q-unsplash.png');
+    background-size: contain;
+    background-position: center;
   }
 
   .cardio {
-    background: url('../../images/cardio-training.jpg');
-    background-size: cover;
+    background: url('https://i.ibb.co/bJY0FsY/arthur-edelman-qfjuh4-OLdxw-unsplash.jpg');
+    background-size: contain;
+    background-position: center;
   }
 }
 
@@ -114,18 +116,20 @@ section {
     width: 33%;
     box-shadow: 5px 5px 10px gray;
     margin: 5px;
+    transition: all .5s;
+    cursor: pointer;
+    border: 1px solid rgba($color: #ffc107, $alpha: 0);
     line-height: 30px;
 
     img {
       width: 80px;
     }
-
     h5 {
       font-weight: bold;
       margin: 30px 0 20px 0;
     }
-  }
-  .why-choose-box:hover {
-    border: 1px solid $textSecondary;
+    &:hover{
+      border: 1px solid rgba($color: #ffc107, $alpha: .8);
+    }
   }
 }

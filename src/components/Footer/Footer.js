@@ -40,7 +40,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="copyright">
-          <p>&copy; 2020 Shrikanta Mazumder. All Right Reserved</p>
+          <p>&copy; {new Date().getFullYear()} Power of GYM . All Right Reserved</p>
         </div>
     </footer>
   );
